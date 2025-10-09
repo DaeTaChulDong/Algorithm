@@ -100,4 +100,5 @@ int main(void) {
 		print_playlist(playlist, current);
 		getchar();
 	} while (navi != 'q');
+
 }
