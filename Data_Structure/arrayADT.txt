@@ -1,0 +1,18 @@
+*객체: <인덱스, 값> 쌍의 집합
+*연산:
+
+function create(size) do
+    size개의 요소를 저장할 수 있는 배열 생성
+end
+
+function get(A,i) do
+    배열 A의 i번째 요소 반환
+end
+
+function set(A,i,v) do
+    배열 A의 i번째 위치에 값 v 저장
+end
+
+배열은 기본 자료구조로, C언어에는 이미 배열 관련 연산들이 구현되어 있다.
+- create : 배열 생성 문법
+- get/set: []를 통한 인덱스 접근(내부적으로는 포인터+정수 연산)
