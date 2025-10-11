@@ -1,0 +1,41 @@
+*객체: n개의 element형으로 구성된 순서 있는 모임
+
+function insert(list,pos,item) do
+    pos 위치에 요소를 추가한다.
+end
+
+function insert_last(list,item) do
+    맨 끝에 요소를 추가한다.
+end
+
+function insert_first(list, item) do
+    맨 처음에 요소를 추가한다.
+end
+
+function delete(list, pos) do
+    pos 위치의 요소를 제거한다.
+end
+
+function clear(list) do
+    리스트의 모든 요소를 제거한다.
+end
+
+function get_entry(list, pos) do
+    pos 위치의 요소를 반환한다.
+end
+
+function get_length(list) do
+    리스트의 길이를 구한다.
+end
+
+function is_empty(list) do
+    리스트가 비어있는지 검사한다.
+end
+
+function is_full(list) do
+    리스트가 꽉 찼는지를 검사한다.
+end
+
+function print_list(list) do
+    리스트의 모든 요소를 표시한다.
+end
