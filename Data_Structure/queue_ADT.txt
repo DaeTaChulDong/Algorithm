@@ -1,0 +1,50 @@
+*객체: 0개 이상의 요소들로 구성된 선형 리스트
+
+function create(max_size) do
+    최대 크기가 max_size인 공백 큐를 생성한다.
+end
+
+function is_empty(q) do
+    if (size==0) do
+        return True
+    end
+    else do
+        return False
+    end
+end
+
+function is_full(q) do
+    if(size==max_size) do
+        return True
+    end
+    else do
+        return False
+    end
+end
+
+function enqueue(q,e) do
+    if(is_full(q)) do
+        queue_full 오류
+    end
+    else do
+        q의 끝의 e를 추가한다.
+    end
+end
+
+function dequeue(q) do
+    if (is_empty(q)) do
+        queue_empty 오류
+    end
+    else do
+        q의 맨 앞에 있는 e를 제거하여 반환한다.
+    end
+end
+
+function peek(q) do
+    if(is_empty(q)) do
+        queue_empty 오류
+    end
+    else do
+        q의 맨 앞에 있는 e를 읽어서 반환한다.
+    end
+end
