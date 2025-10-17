@@ -1,0 +1,44 @@
+*덱: Double-ended Queue
+front와 rear 모두에서 삽입/삭제가 가능한 큐
+
+*객체: n개의 element형 요소들의 순서 있는 모임
+
+function create() do
+    덱을 생성한다.
+end
+
+function init(dq) do
+    덱을 초기화한다.
+end
+
+function is_empty(dq) do
+    덱이 공백 상태인지 검사한다.
+end
+
+function is_full(dq) do
+    덱이 포화 상태인지 검사한다.
+end
+
+function add_front(dq,e) do
+    덱의 앞에 요소를 추가한다.
+end
+
+function add_rear(dq,e) do
+    덱의 뒤에 요소를 추가한다.
+end
+
+function delete_front(dq) do
+    덱의 앞에 있는 요소를 반환한 다음 삭제한다.
+end
+
+function delete_rear(dq) do
+    덱의 뒤에 있는 요소를 반환한 다음 삭제한다.
+end
+
+function get_front(dq) do
+    덱의 앞에 있는 요소를 삭제하지 않고 반환한다.
+end
+
+function get_rear(dq) do
+    덱의 뒤에 있는 요소를 삭제하지 않고 반환한다.
+end
